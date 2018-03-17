@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+#carousel {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+#carousel ul {
+  width: 2000px;
+  height: 300px;
+  position: relative;
+  list-style-type: none;
+}
+
+#carousel ul li {
+  width: 400px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+#carousel ul li img {
+  width: 400px;
+  height: 300px;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
